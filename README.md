@@ -22,12 +22,45 @@ This project analyzes flight data to support better operational decisions.
 
 ##  Dataset Description
 
-The dataset contains information about flights, including:
+This dataset includes detailed records of flight operations, providing insights into air traffic patterns and airport activity.
 
-* Inbound and outbound traffic
-* Flight frequency
-* Delay-related data
-* Airport-related metrics
+###  Key Features
+
+* **Inbound Flights**: Number of flights arriving at an airport
+* **Outbound Flights**: Number of flights departing from an airport
+* **Total Traffic**: Overall flight volume handled by the airport
+* **Delay Metrics** *(if available)*: Information about flight delays
+* **Airport Identifier**: Unique identifier or name of each airport
+* **Cluster / Category** *(if applied)*: Grouping of airports based on traffic or behavior
+
+---
+
+###  What This Data Represents
+
+This dataset captures how airports operate in terms of:
+
+* Traffic flow (arrivals vs departures)
+* Operational load
+* Efficiency and congestion patterns
+
+---
+
+###  Data Limitations
+
+* Some airports may have incomplete records
+* Delays may be influenced by external factors not included in the dataset
+* Potential outliers in traffic volume
+
+---
+
+###  Why This Dataset Matters
+
+This dataset helps answer important operational questions:
+
+* Which airports handle the highest traffic?
+* Is there a balance between inbound and outbound flights?
+* Where do inefficiencies (like delays) occur?
+
 
 ---
 
