@@ -1,56 +1,101 @@
-# ✈️ Flight Data Analysis & Cleaning
+# ✈️ Flight Data Analysis
 
-## 📌 Project Overview
-This project analyzes flight data to understand air traffic patterns, delays, and airport performance through full data cleaning and exploratory analysis.
+##  Overview
 
----
+This project provides a comprehensive analysis of flight data to uncover patterns in air traffic, delays, and airport performance.
 
-##  Objectives
-- Clean and preprocess flight dataset
-- Analyze inbound vs outbound traffic
-- Identify delay patterns
-- Evaluate airport performance
-- Detect anomalies in flight data
+The work includes full data preprocessing and exploratory data analysis (EDA) to extract meaningful insights from raw flight data.
 
 ---
 
-##  Data Cleaning Steps
-- Handled missing values
-- Removed duplicates
-- Standardized column formats
-- Outlier detection using statistical methods
+##  Business Problem
+
+Airlines and airports aim to:
+
+* Optimize flight operations
+* Reduce delays
+* Improve passenger experience
+
+This project analyzes flight data to support better operational decisions.
+
+---
+
+##  Dataset Description
+
+The dataset contains information about flights, including:
+
+* Inbound and outbound traffic
+* Flight frequency
+* Delay-related data
+* Airport-related metrics
+
+---
+
+##  Data Cleaning Process
+
+Key preprocessing steps include:
+
+* Handling missing values
+* Removing duplicate records
+* Standardizing column formats
+* Detecting and handling outliers
 
 ---
 
 ##  Exploratory Data Analysis (EDA)
-- Traffic analysis:
-  - Inbound vs Outbound flights
-- Distribution of:
-  - Delays
-  - Flight frequency
-- Airport clustering (if applied)
-- Identifying busiest airports
-- Trend analysis over time
 
----
+### 1. Traffic Analysis
 
-##  Tools & Libraries
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+* Comparison between inbound and outbound flights
+* Identifying traffic distribution across airports
+
+### 2. Delay Analysis
+
+* Understanding delay patterns
+* Detecting peak delay periods
+
+### 3. Airport Performance
+
+* Identifying busiest airports
+* Comparing operational efficiency
+
+### 4. Pattern Detection
+
+* Identifying clusters (if applied)
+* Recognizing trends over time
 
 ---
 
 ##  Key Insights
-- Certain airports dominate traffic volume
-- Delay patterns vary depending on flight direction
-- Some clusters show similar operational behavior
+
+* Traffic is unevenly distributed across airports
+* Some airports consistently handle higher volumes
+* Delay patterns vary based on traffic direction and airport activity
+
+---
+
+##  Tools & Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
 
 ---
 
 ##  Project Structure
-├── Flight.ipynb     # Main analysis notebook
+
+```bash
+├── data/            # Dataset files
+├── Flight.ipynb     # Main notebook
 ├── README.md        # Documentation
-└── data/            # (optional) dataset files
+```
+
+---
+
+##  How to Run
+
+1. Clone the repository
+2. Open the notebook
+3. Run all cells sequentially
